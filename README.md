@@ -45,19 +45,3 @@ CUDA_VISIBLE_DEVICES=0 python main.py --status decode --model_dir <model dir> --
 
 ### models 
 We upload a model trained on CoNLL2003 dataset [here](https://drive.google.com/drive/folders/1wwQWmfXaxS3GbrR7G-k1XI0gQbp3ZqzV?usp=sharing). 
-
-## Cite
-If you use our code, please cite our paper as follows:
-
-
-```
-@inproceedings{gui2020uncertainty,
-author = {Tao Gui, Jiacheng Ye, Qi Zhang, Zhengyan Li, zichu fei, Yeyun Gong and Xuanjing Huang},
-title = {Uncertainty-Aware Label Refinement for Sequence Labeling},
-publisher = {EMNLP},
-year = {2020}
-}
-```
-
-## Reference
-- [NCRF++](https://github.com/jiesutd/NCRFpp.git)  
